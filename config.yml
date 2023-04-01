@@ -1,5 +1,5 @@
 baseURL: "https://yooseungkim.github.io/"
-title: ExampleSite
+title: Yooseung
 paginate: 5
 theme: PaperMod
 
@@ -16,30 +16,30 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Yooseung Kim
+  description: "Yooseung Kim's Blog"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Yooseung Kim
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
+  ShowReadingTime: false
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -74,15 +74,13 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog -> Yooseung Kim
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: instagram
+      url: "https://www.instagram.com/youwinnn12/"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/yooseungkim"
 
   analytics:
     google:
@@ -112,6 +110,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: categories
@@ -122,10 +121,14 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 20
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
@@ -136,3 +139,8 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
