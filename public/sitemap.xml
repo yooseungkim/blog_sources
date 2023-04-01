@@ -3,9 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yooseungkim.github.io/categories/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>https://yooseungkim.github.io/</loc>
+    <loc>https://yooseungkim.github.io/tags/first/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/post/1st-post/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/post/2nd-post/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/post/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/tags/second/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
     <loc>https://yooseungkim.github.io/tags/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/categories/title/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url><url>
+    <loc>https://yooseungkim.github.io/archives/</loc>
+  </url><url>
+    <loc>https://yooseungkim.github.io/search/</loc>
+  </url><url>
+    <loc>https://yooseungkim.github.io/post/test/</loc>
   </url>
 </urlset>
